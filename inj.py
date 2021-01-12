@@ -62,9 +62,5 @@ async def on_message(message):
             tlfvoEmbed.add_field(name='이유', value='잘못된 숫자', inline=False)
             await message.channel.send(embed=tlfvoEmbed)
             print(f'{message.author} 님이 잘못된 숫자로 인해 인증을 실패함.')
-            
-access_token = os.environ['BOT_TOKEN']          
-  
-client.run(access_token)
-
-
+                    
+client.run('Nzk3OTgzNTU3Njk1MTc2NzE0.X_uaGQ.snz9z6uEqyfq-BZ5mpxNnfE8mfQ')
